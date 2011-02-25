@@ -64,7 +64,7 @@ describe PagesController do
       it  "Should have the right title" do
         get 'help'
         response.should have_selector("title",
-                                      :content => "#{@base_title} | help")
+                                      :content => "#{@base_title} | Help")
       end
 
   end
